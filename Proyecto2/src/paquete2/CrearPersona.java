@@ -1,5 +1,7 @@
 package paquete2;
 
+import java.nio.channels.NonWritableChannelException;
+
 public class CrearPersona {
 
 	public static void main(String[] args) {
@@ -15,6 +17,9 @@ public class CrearPersona {
 		
 		Estudiante estudiante1 = new Estudiante("Ana", 20, "A12345");
 		estudiante1.mostrarInformacion();
+		
+		Estudiante estudiante2 = new Estudiante("Pedro", 18, "B54321");
+		estudiante2.mostrarInformacion();
 		
 		
 		
