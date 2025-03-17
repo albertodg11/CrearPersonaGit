@@ -13,6 +13,9 @@ public class CrearPersona {
 		System.out.println("ESTUDIANTES");
 		System.out.println("-------------------------------------------------------------");
 		
+		Estudiante estudiante1 = new Estudiante("Ana", 20, "A12345");
+		estudiante1.mostrarInformacion();
+		
 		
 		
 
