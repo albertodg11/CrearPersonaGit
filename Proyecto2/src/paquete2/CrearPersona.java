@@ -5,6 +5,9 @@ public class CrearPersona {
 	public static void main(String[] args) {
 		Persona persona1 = new Persona("María", 30);
 		persona1.mostrarInformacion();
+		
+		Persona persona2 = new Persona("Juan", 27);
+		persona2.mostrarInformacion();
 
 	}
 
